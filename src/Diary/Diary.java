@@ -1,5 +1,6 @@
 package Diary;
 
+<<<<<<< HEAD
 import Entry.Entry;
 
 import java.util.ArrayList;
@@ -68,4 +69,7 @@ public class Diary {
         }
         return id;
     }
+=======
+public class Diary {
+>>>>>>> 771f1adaa68e5f3e563f0423bd166712629f1062
 }
