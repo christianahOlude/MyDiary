@@ -1,12 +1,11 @@
 package Diary;
 
-<<<<<<< HEAD
 import Entry.Entry;
 
 import java.util.ArrayList;
 
 public class Diary {
-    ArrayList<Entry>entries = new ArrayList<>();
+    ArrayList<Entry> entries = new ArrayList<>();
 
     private String userName;
     private String password;
@@ -38,13 +37,13 @@ public class Diary {
     }
 
     public boolean isLocked() {
-      return isLocked;
+        return isLocked;
     }
 
 
     public void createEntry(String userName, String password) {
-       this.userName = userName;
-       this.password = password;
+        this.userName = userName;
+        this.password = password;
     }
 
     public void deleteEntry(int id) {
@@ -57,19 +56,16 @@ public class Diary {
 
     public boolean unlockDiary() {
         if (isLocked) {
-           isLocked = false;
+            isLocked = false;
         }
         return false;
     }
 
 
     public int findUserById(int id) {
-        if(Entry.id != id) {
+        if (Entry.id != id) {
             throw new IllegalArgumentException("incorrect id");
         }
         return id;
     }
-=======
-public class Diary {
->>>>>>> 771f1adaa68e5f3e563f0423bd166712629f1062
 }
